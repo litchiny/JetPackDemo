@@ -3,29 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/billFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/bottom_icon_bill"
         android:orderInCategory="1"
         android:title="Bill"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/statisticsFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/bottom_icon_satistics"
         android:orderInCategory="2"
-        android:title="Satistics"
+        android:title="Satis"
         app:showAsAction="always" />
 
 
     <item
         android:id="@+id/advancedFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/bottom_icon_advanced"
         android:orderInCategory="2"
-        android:title="Advanced"
+        android:title="Advan"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/mineFragment"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/bottom_icon_mine"
         android:orderInCategory="2"
         android:title="Mine"
         app:showAsAction="always" />
