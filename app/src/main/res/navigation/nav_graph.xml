@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/billFragment">
+
+    <fragment
+        android:id="@+id/billFragment"
+        android:name="com.litchiny.jetpackdemo.BillFragment"
+        android:label="fragment_bill"
+        tools:layout="@layout/fragment_bill" >
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.litchiny.jetpackdemo.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/advancedFragment"
+        android:name="com.litchiny.jetpackdemo.AdvancedFragment"
+        android:label="fragment_advanced"
+        tools:layout="@layout/fragment_advanced" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.litchiny.jetpackdemo.MineFragment"
+        android:label="fragment_mine"
+        tools:layout="@layout/fragment_mine" />
+    <action android:id="@+id/action_global_billFragment" app:destination="@id/billFragment"/>
+    <action android:id="@+id/action_global_statisticsFragment" app:destination="@id/statisticsFragment" />
+    <action android:id="@+id/action_global_advancedFragment" app:destination="@id/advancedFragment"/>
+    <action android:id="@+id/action_global_mineFragment" app:destination="@id/mineFragment"/>
+</navigation>

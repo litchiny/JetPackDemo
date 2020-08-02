@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/billFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="1"
+        android:title="Bill"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"
+        android:title="Satistics"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/advancedFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"
+        android:title="Advanced"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mineFragment"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"
+        android:title="Mine"
+        app:showAsAction="always" />
+</menu>
