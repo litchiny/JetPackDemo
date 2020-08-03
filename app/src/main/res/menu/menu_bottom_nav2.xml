@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_bill"
+        android:icon="@drawable/bottom_icon_bill"
+        android:contentDescription="Bill"
+        android:title="Bill" />
+
+    <item
+        android:id="@+id/nav_statictics"
+        android:icon="@drawable/bottom_icon_satistics"
+        android:contentDescription="Satis"
+        android:title="Satis" />
+
+
+    <item
+        android:id="@+id/nav_advanced"
+        android:icon="@drawable/bottom_icon_advanced"
+        android:contentDescription="Advan"
+        android:title="Advan" />
+
+    <item
+        android:id="@+id/nav_mine"
+        android:icon="@drawable/bottom_icon_mine"
+        android:contentDescription="Mine"
+        android:title="Mine" />
+</menu>

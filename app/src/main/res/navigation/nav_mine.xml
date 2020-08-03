@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mine"
+    app:startDestination="@id/mineFragment2">
+
+    <fragment
+        android:id="@+id/mineFragment2"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.mine.MineFragment2"
+        android:label="fragment_mine2"
+        tools:layout="@layout/fragment_mine2" >
+        <action
+            android:id="@+id/action_mineFragment2_to_mineFragment2Detail"
+            app:destination="@id/mineFragment2Detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/mineFragment2Detail"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.mine.MineFragment2Detail"
+        android:label="fragment_mine_fragment2_detail"
+        tools:layout="@layout/fragment_mine_fragment2_detail" />
+</navigation>

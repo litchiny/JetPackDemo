@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bill"
+    app:startDestination="@id/billFragment2">
+
+    <fragment
+        android:id="@+id/billFragment2"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.bill.BillFragment2"
+        android:label="fragment_bill2"
+        tools:layout="@layout/fragment_bill2" >
+        <action
+            android:id="@+id/action_billFragment2_to_billFragment2Detail"
+            app:destination="@id/billFragment2Detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/billFragment2Detail"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.bill.BillFragment2Detail"
+        android:label="fragment_bill_fragment2_detail"
+        tools:layout="@layout/fragment_bill_fragment2_detail" />
+</navigation>

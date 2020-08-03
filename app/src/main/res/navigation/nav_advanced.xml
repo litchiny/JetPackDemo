@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_advanced"
+    app:startDestination="@id/advancedFragment2">
+
+    <fragment
+        android:id="@+id/advancedFragment2"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.advanced.AdvancedFragment2"
+        android:label="fragment_advanced2"
+        tools:layout="@layout/fragment_advanced2" >
+        <action
+            android:id="@+id/action_advancedFragment2_to_advancedFragment2Detail"
+            app:destination="@id/advancedFragment2Detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/advancedFragment2Detail"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.advanced.AdvancedFragment2Detail"
+        android:label="fragment_advanced_fragment2_detail"
+        tools:layout="@layout/fragment_advanced_fragment2_detail" />
+</navigation>

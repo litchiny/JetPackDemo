@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_statictics"
+    app:startDestination="@id/statisticsFragment2">
+
+    <fragment
+        android:id="@+id/statisticsFragment2"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.statistics.StatisticsFragment2"
+        android:label="fragment_statistics2"
+        tools:layout="@layout/fragment_statistics2" >
+        <action
+            android:id="@+id/action_statisticsFragment2_to_statisticsFragment2Detail"
+            app:destination="@id/statisticsFragment2Detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticsFragment2Detail"
+        android:name="com.litchiny.jetpackdemo.ui.fragment.statistics.StatisticsFragment2Detail"
+        android:label="fragment_statistics_fragment2_detail"
+        tools:layout="@layout/fragment_statistics_fragment2_detail" />
+</navigation>

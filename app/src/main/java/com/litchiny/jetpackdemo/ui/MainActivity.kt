@@ -1,14 +1,12 @@
-package com.litchiny.jetpackdemo
+package com.litchiny.jetpackdemo.ui
 
 import android.os.Bundle
-import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.litchiny.jetpackdemo.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,10 +23,4 @@ class MainActivity : AppCompatActivity() {
         findViewById<BottomNavigationView>(R.id.bottom_nav)
             .setupWithNavController(navController)
     }
-
-    //点击Toolbar的back icon 返回上一级
-//    override fun onSupportNavigateUp(): Boolean {
-//        val navController = findNavController(R.id.nav_fragment)
-//        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
-//    }
 }
